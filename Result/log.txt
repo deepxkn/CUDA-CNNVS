@@ -1,0 +1,176 @@
+
+
+*******************CONFIG*******************
+Is Grandient Checking : 0
+batch Size            : 64
+channels              : 1
+crop                  : 0
+scale                 : 12.000000
+rotation              : 12.000000
+distortion            : 3.400000
+imageShow             : 0
+HORIZONTAL            : 0
+Test_Epoch            : 10000
+White Noise           : 0.000000
+
+
+********data Layer********
+NAME          : data
+
+
+********conv layer********
+NAME          : conv1
+INPUT         : data
+SUBINPUT      : NULL
+KERNEL_SIZE   : 5
+KERNEL_AMOUNT : 32
+CFM           : 1
+PADDING       : 0
+WEIGHT_DECAY  : 0.000001
+initW         : 0.010000
+non_linearity : NL_RELU
+
+
+********pooling layer********
+NAME          : pooling1
+INPUT         : conv1
+POOLINGTYPE   : max
+SUBINPUT      : NULL
+size          : 2
+skip          : 2
+non_linearity : NULL
+
+
+********conv layer********
+NAME          : conv2
+INPUT         : pooling1
+SUBINPUT      : NULL
+KERNEL_SIZE   : 5
+KERNEL_AMOUNT : 64
+CFM           : 32
+PADDING       : 0
+WEIGHT_DECAY  : 0.000001
+initW         : 0.100000
+non_linearity : NL_RELU
+
+
+********pooling layer********
+NAME          : pooling2
+INPUT         : conv2
+POOLINGTYPE   : max
+SUBINPUT      : NULL
+size          : 2
+skip          : 2
+non_linearity : NULL
+
+
+********Full Connect Layer********
+NAME                    : fc1
+INPUT                   : pooling2
+SUBINPUT                : NULL
+NUM_FULLCONNECT_NEURONS : 512
+WEIGHT_DECAY            : 0.000000
+DROPOUT_RATE            : 0.500000
+initW                   : 0.010000
+non_linearity           : NL_RELU
+
+
+********SoftMax Layer********
+NAME         : softmax1
+INPUT        : fc1
+SUBINPUT     : NULL
+NUM_CLASSES  : 10
+WEIGHT_DECAY : 0.000001
+initW        : 0.100000
+non_linearity: NULL
+
+
+
+
+
+*******************CONFIG*******************
+Is Grandient Checking : 0
+batch Size            : 64
+channels              : 1
+crop                  : 0
+scale                 : 12.000000
+rotation              : 12.000000
+distortion            : 3.400000
+imageShow             : 0
+HORIZONTAL            : 0
+Test_Epoch            : 10000
+White Noise           : 0.000000
+
+
+********data Layer********
+NAME          : data
+
+
+********conv layer********
+NAME          : conv1
+INPUT         : data
+SUBINPUT      : NULL
+KERNEL_SIZE   : 5
+KERNEL_AMOUNT : 32
+CFM           : 1
+PADDING       : 0
+WEIGHT_DECAY  : 0.000001
+initW         : 0.010000
+non_linearity : NL_RELU
+
+
+********pooling layer********
+NAME          : pooling1
+INPUT         : conv1
+POOLINGTYPE   : max
+SUBINPUT      : NULL
+size          : 2
+skip          : 2
+non_linearity : NULL
+
+
+********conv layer********
+NAME          : conv2
+INPUT         : pooling1
+SUBINPUT      : NULL
+KERNEL_SIZE   : 5
+KERNEL_AMOUNT : 64
+CFM           : 32
+PADDING       : 0
+WEIGHT_DECAY  : 0.000001
+initW         : 0.100000
+non_linearity : NL_RELU
+
+
+********pooling layer********
+NAME          : pooling2
+INPUT         : conv2
+POOLINGTYPE   : max
+SUBINPUT      : NULL
+size          : 2
+skip          : 2
+non_linearity : NULL
+
+
+********Full Connect Layer********
+NAME                    : fc1
+INPUT                   : pooling2
+SUBINPUT                : NULL
+NUM_FULLCONNECT_NEURONS : 512
+WEIGHT_DECAY            : 0.000000
+DROPOUT_RATE            : 0.500000
+initW                   : 0.010000
+non_linearity           : NL_RELU
+
+
+********SoftMax Layer********
+NAME         : softmax1
+INPUT        : fc1
+SUBINPUT     : NULL
+NUM_CLASSES  : 10
+WEIGHT_DECAY : 0.000001
+initW        : 0.100000
+non_linearity: NULL
+
+
+

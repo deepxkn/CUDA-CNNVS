@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Layers">
+      <UniqueIdentifier>{27e4af31-5382-4690-b33c-d781e1dda66c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{f1abf154-59bb-4a79-8e43-fbe28a8796e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dataAugmentation">
+      <UniqueIdentifier>{bf9d0426-85cb-40b3-9861-44e341c1e364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="readData">
+      <UniqueIdentifier>{cd5124c4-1a04-4c9f-83ba-be68c35e605b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="layers\LRN.cu">
+      <Filter>Layers</Filter>
+    </CudaCompile>
+    <CudaCompile Include="layers\NIN.cu">
+      <Filter>Layers</Filter>
+    </CudaCompile>
+    <CudaCompile Include="layers\One.cu">
+      <Filter>Layers</Filter>
+    </CudaCompile>
+    <CudaCompile Include="layers\Pooling.cu">
+      <Filter>Layers</Filter>
+    </CudaCompile>
+    <CudaCompile Include="layers\SoftMax.cu">
+      <Filter>Layers</Filter>
+    </CudaCompile>
+    <CudaCompile Include="layers\BranchLayer.cu">
+      <Filter>Layers</Filter>
+    </CudaCompile>
+    <CudaCompile Include="layers\CombineLayer.cu">
+      <Filter>Layers</Filter>
+    </CudaCompile>
+    <CudaCompile Include="layers\ConvCFM.cu">
+      <Filter>Layers</Filter>
+    </CudaCompile>
+    <CudaCompile Include="layers\DataLayer.cu">
+      <Filter>Layers</Filter>
+    </CudaCompile>
+    <CudaCompile Include="layers\FullConnect.cu">
+      <Filter>Layers</Filter>
+    </CudaCompile>
+    <CudaCompile Include="layers\LocalConnect.cu">
+      <Filter>Layers</Filter>
+    </CudaCompile>
+    <CudaCompile Include="dataAugmentation\dataPretreatment.cu">
+      <Filter>dataAugmentation</Filter>
+    </CudaCompile>
+    <CudaCompile Include="dataAugmentation\pca.cu">
+      <Filter>dataAugmentation</Filter>
+    </CudaCompile>
+    <CudaCompile Include="net.cu" />
+    <CudaCompile Include="dataAugmentation\cuTrasformation.cu">
+      <Filter>dataAugmentation</Filter>
+    </CudaCompile>
+    <CudaCompile Include="common\cuBase.cu">
+      <Filter>common</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="layers\BranchLayer.h">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\CombineLayer.h">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\ConvCFM.h">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\DataLayer.h">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\FullConnect.h">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\LayerBase.h">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\LocalConnect.h">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\NIN.h">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\One.h">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\Pooling.h">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\SoftMax.h">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Config.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cuBase.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cuMatrix.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cuMatrixVector.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\MemoryMonitor.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="dataAugmentation\pca.cuh">
+      <Filter>dataAugmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="dataAugmentation\cuTrasformation.cuh">
+      <Filter>dataAugmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="dataAugmentation\dataPretreatment.cuh">
+      <Filter>dataAugmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="readData\readChineseData.h">
+      <Filter>readData</Filter>
+    </ClInclude>
+    <ClInclude Include="readData\readCIFAR100Data.h">
+      <Filter>readData</Filter>
+    </ClInclude>
+    <ClInclude Include="readData\readCIFAR10Data.h">
+      <Filter>readData</Filter>
+    </ClInclude>
+    <ClInclude Include="readData\readMnistData.h">
+      <Filter>readData</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\LRN.h">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="net.cuh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="layers\LayerBase.cpp">
+      <Filter>Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Config.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cuMatrix.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cuMatrixVector.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\MemoryMonitor.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\util.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="readData\readChineseData.cpp">
+      <Filter>readData</Filter>
+    </ClCompile>
+    <ClCompile Include="readData\readCIFAR100Data.cpp">
+      <Filter>readData</Filter>
+    </ClCompile>
+    <ClCompile Include="readData\readCIFAR10Data.cpp">
+      <Filter>readData</Filter>
+    </ClCompile>
+    <ClCompile Include="readData\readMnistData.cpp">
+      <Filter>readData</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>

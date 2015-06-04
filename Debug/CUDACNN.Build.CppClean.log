@@ -1,0 +1,65 @@
+C:\USERS\MISTYRAIN\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\CUDACNN\CUDACNN\DEBUG\CONFIG.OBJ
+C:\USERS\MISTYRAIN\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\CUDACNN\CUDACNN\DEBUG\CUDACNN.EXE.EMBED.MANIFEST.RES
+C:\USERS\MISTYRAIN\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\CUDACNN\CUDACNN\DEBUG\CUMATRIX.OBJ
+C:\USERS\MISTYRAIN\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\CUDACNN\CUDACNN\DEBUG\CUMATRIXVECTOR.OBJ
+C:\USERS\MISTYRAIN\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\CUDACNN\CUDACNN\DEBUG\LAYERBASE.OBJ
+C:\USERS\MISTYRAIN\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\CUDACNN\CUDACNN\DEBUG\MAIN.OBJ
+C:\USERS\MISTYRAIN\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\CUDACNN\CUDACNN\DEBUG\MEMORYMONITOR.OBJ
+C:\USERS\MISTYRAIN\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\CUDACNN\CUDACNN\DEBUG\READCHINESEDATA.OBJ
+C:\USERS\MISTYRAIN\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\CUDACNN\CUDACNN\DEBUG\READCIFAR100DATA.OBJ
+C:\USERS\MISTYRAIN\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\CUDACNN\CUDACNN\DEBUG\READCIFAR10DATA.OBJ
+C:\USERS\MISTYRAIN\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\CUDACNN\CUDACNN\DEBUG\READMNISTDATA.OBJ
+C:\USERS\MISTYRAIN\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\CUDACNN\CUDACNN\DEBUG\UTIL.OBJ
+C:\USERS\MISTYRAIN\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\CUDACNN\CUDACNN\DEBUG\VC100.PDB
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\BranchLayer.cu.cache
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\BranchLayer.cu.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\cl.command.1.tlog
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\CL.read.1.tlog
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\CL.write.1.tlog
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\CombineLayer.cu.cache
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\CombineLayer.cu.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\Config.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\ConvCFM.cu.cache
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\ConvCFM.cu.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\CUDACNN.exe.embed.manifest
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\CUDACNN.exe.embed.manifest.res
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\CUDACNN.exe.intermediate.manifest
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\CUDACNN_manifest.rc
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\cuMatrix.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\cuMatrixVector.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\cuTrasformation.cu.cache
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\cuTrasformation.cu.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\DataLayer.cu.cache
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\DataLayer.cu.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\dataPretreatment.cu.cache
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\dataPretreatment.cu.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\FullConnect.cu.cache
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\LayerBase.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\link.command.1.tlog
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\link.read.1.tlog
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\link.write.1.tlog
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\link-cvtres.read.1.tlog
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\link-cvtres.write.1.tlog
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\LocalConnect.cu.cache
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\LRN.cu.cache
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\main.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\MemoryMonitor.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\net.cu.cache
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\net.cu.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\NIN.cu.cache
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\One.cu.cache
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\pca.cu.cache
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\pca.cu.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\Pooling.cu.cache
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\rc.command.1.tlog
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\rc.read.1.tlog
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\rc.write.1.tlog
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\readChineseData.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\readCIFAR100Data.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\readCIFAR10Data.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\readMnistData.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\SoftMax.cu.cache
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\util.obj
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\vc100.idb
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\CUDACNN\Debug\vc100.pdb
+E:\MachineLearning\DeepLearning\CNN\CUDACNN\Debug\CUDACNN.pdb
